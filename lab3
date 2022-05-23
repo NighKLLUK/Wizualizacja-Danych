@@ -1,0 +1,62 @@
+#1
+# a=[1-x for x in range(10)]
+# b=[4**i for i in range(8)]
+# c=[x for x in a if x%2==0]
+# print(a)
+# print(b)
+# print(c)
+
+#2
+# lista1=[1,2,3,4,5,6,7,8,9,10]
+# lista2=[i for i in lista1 if i%2==0]
+# print(lista2)
+
+#3
+# produkty={"bulka":"sztuka",
+#           "chleb":"sztuka",
+#           "amarena":"litr",
+#           "cytryna":"kilogram"}
+# szt={key:value for value, value in produkty.values("sztuka")}
+# print(szt)
+
+#4
+# def dl_bokow(a,b,c):
+#     d=a**2+b**2
+#     e=c**2
+#     if d==e:
+#         print("trojkat jest prostokatny")
+#     else:
+#         print("trojkat nie jest prostokatny")
+# print(dl_bokow(3,4,5))
+# print(dl_bokow(3,4,6))
+# print(dl_bokow(5,4,5))
+
+#5
+# def trapez(a=3,b=4,h=5):
+#     return (a+b)*h/2
+# print(trapez())
+def funkcja():
+    a=1
+    b=4
+    ile=10
+    i=0
+    while a<=ile:
+        i=a**b
+        print(i)
+        a+=1
+
+
+print(funkcja())
+
+#10
+for x in range(0,101,1):
+    if x%4==0:
+        plik=open("podzielne.txt","w+")
+        plik.write(x)
+        plik.close()
+
+#11
+plik=open("podzielne.txt","r")
+wysw=plik.readlines()
+plik.close()
+print(wysw)

@@ -1,0 +1,28 @@
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+#1
+# x=np.arange(1,21,1)
+# y=1/x
+# plt.plot(x,y, label='f(x)=1/x')
+# plt.xlabel('x')
+# plt.ylabel('f(x)')
+# plt.title('Wykres funkcji f(x) dla x[1,20]')
+# plt.legend()
+# plt.axis([0,20.01,0,1])
+# plt.show()
+#2
+# plt.plot(x,y,'g:', marker='>', label='f(x)=1/x')
+# plt.xlabel('x')
+# plt.ylabel('f(x)')
+# plt.title('Wykres funkcji f(x) dla x[1,20]')
+# plt.legend()
+# plt.axis([0,20.01,0,1])
+# plt.show()
+#3
+# x=np.arange(0,30.01,0.1)
+# plt.plot(x, np.sin(x),'r-',label='sin(x)')
+# plt.plot(x, np.cos(x),'g-',label='cos(x)')
+# plt.legend(loc='upper right')
+# plt.xlabel('x')
+# plt.show()

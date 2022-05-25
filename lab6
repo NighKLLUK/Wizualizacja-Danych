@@ -1,0 +1,23 @@
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# df=pd.read_excel('imiona.xlsx')
+#1
+# df1=df.groupby('Rok').agg({'Liczba':['sum']})
+# df1.plot(xlabel='rok',ylabel='Liczba dzieci',title='Ilosc ur. dzieci w danych latach')
+# plt.legend(labels=['Liczba'])
+# plt.axis([2000,2017,350000,460000])
+# plt.show()
+#2
+# df1=df.groupby('Plec').agg({'Liczba':['sum']})
+# df1.plot.bar(xlabel='Plec', ylabel='Liczba urodzen w mln')
+# plt.legend(labels=['L.urodzen'])
+# plt.show()
+#4
+# df=pd.read_csv('zamowienia.csv', sep=';', decimal='.')
+# df1=df.groupby('Sprzedawca').agg({'Sprzedawca':['value_counts']})
+# print(df1)
+# df1.plot.bar(xlabel='Sprzedawca', ylabel='Liczba zamowien', title='Ilosc zamowien ')
+# plt.legend(labels=['Liczba zamowien'])
+# plt.show()

@@ -1,0 +1,13 @@
+import pandas as pd
+# df=pd.read_excel('imiona.xlsx', header=0)
+
+#zad2
+# print(df[df['Liczba'] > 1000])
+# print(df[df['Imie'] =='KLAUDIA'])
+# print(df['Liczba'].sum())
+# print(df.groupby('Rok').agg({'Liczba':['sum']}))
+# print(df[(df.Rok>=2000) & (df.Rok<=2005)])
+
+#zad3
+df=pd.read_csv('zamowienia.csv', sep=';', decimal='.')
+df1=df['Sprzedawca']
